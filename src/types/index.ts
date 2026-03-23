@@ -1,1 +1,1 @@
-export { Task } from './task';
+export type { Task } from './task';

@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/collaborationbar.tsx","./src/components/filterbar.tsx","./src/components/taskcard.tsx","./src/data/generatedata.ts","./src/store/usestore.ts","./src/types/index.ts","./src/types/task.ts","./src/views/kanbanview.tsx","./src/views/listview.tsx","./src/views/timelineview.tsx"],"version":"5.9.3"}
