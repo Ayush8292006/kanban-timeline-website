@@ -1,32 +1,45 @@
-# ProjectFlow
+# ProjectFlow - Task Management App
 
-A task management web app I built. You can switch between Kanban board, list view, and timeline. Took around 2 days to build.
+A task management application with Kanban board, sortable list view, and timeline view. Built with React, TypeScript, and Tailwind CSS.
 
+## Live Demo
 
+"kanban-timeline-website.vercel.app"
 
- ⚡ Features
+## Features
 
--> 3 ways to see tasks : 
-- Kanban board - drag cards between columns
-- List view - sortable table with 500+ tasks
-- Timeline - see tasks on a monthly calendar
+- 3 Views - Kanban board (drag & drop), sortable list (virtual scrolling), timeline view
+- Custom Drag & Drop - Built with HTML5 drag events, no external libraries
+- Virtual Scrolling - Handles 500+ tasks in list view without performance issues
+- Live Collaboration - Shows who's viewing which task (simulated with 4 users)
+- Advanced Filters - Filter by status, priority, assignee, due date range
+- URL Sync - Filters saved in URL, share filtered views with anyone
+- Responsive - Works on desktop (1280px+) and tablet (768px)
 
--> Filters
-Filter by status, priority, assignee, or due date range. Filters stay in URL so you can share what you're seeing.
+## Tech Stack
 
--> Live collaboration
-Shows who's viewing which task. 4 dummy users move around randomly every few seconds. Their avatars show up on tasks.
+- React 18 + TypeScript
+- Tailwind CSS (styling)
+- Zustand (state management)
+- date-fns (date handling)
+- Vite (build tool)
+- Lucide React (icons)
 
--> Built from scratch
-- Drag and drop - no libraries, just HTML5 drag events
-- Virtual scrolling - only renders visible rows, handles 500+ tasks smoothly
+## Setup Instructions
 
--> Tech
+### Prerequisites
+- Node.js 18+ installed
+- npm or yarn
 
-- React + TypeScript
-- Tailwind CSS
-- Zustand (simple state management)
-- date-fns (dates)
-- Vite
+### Installation
 
+```bash
+# Clone the repository
+git clone https://github.com/Ayush8292006/kanban-timeline-website.git
+cd kanban-timeline-website
 
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
